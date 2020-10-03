@@ -1,4 +1,5 @@
-var app = angular.module("DemoApp", ['ngRoute', 'ngCookies', 'angularSpinkit']);
+var app = angular.module("DemoApp", ['ngRoute', 'ngCookies']);
+// , 'angularSpinkit'
 app.config(function ($routeProvider) {
     $routeProvider
         .when("/", {
