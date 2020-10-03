@@ -23,6 +23,7 @@ app.config(function ($routeProvider) {
     // })
 })
 
+
 app.controller("HomeController", function ($scope, $http, $window, $route, $routeParams, $cookies, $location) {
 
     $scope.EmailId = $cookies.getObject("EmailId");
