@@ -1,10 +1,10 @@
-var app = angular.module("DemoApp", ['ngRoute']);
-app.config(function ($routeProvider) {
-    $routeProvider
-        .when("/", {
-            template: "<h2>Welcome Tutorial Page</h2>"
-        })
-})
+var app = angular.module("DemoApp", []);
+// app.config(function ($routeProvider) {
+//     $routeProvider
+//         .when("/", {
+//             template: "<h2>Welcome Tutorial Page</h2>"
+//         })
+// })
 app.controller("EditProfileController", function ($scope, $http, $window, $routeParams,$route) {
 
 
