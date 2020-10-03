@@ -650,7 +650,7 @@ app.controller("HomeController", function ($scope, $http, $window, $route, $rout
         return Math.ceil($scope.daata.length / $scope.PerPage);
     }
     $scope.bannerPages = function () {
-        return Math.ceil($scope.daataLang.length-1 / $scope.PerPage);
+        return Math.ceil($scope.daataLang.length / $scope.PerPage);
     }
 
     $scope.recordsPerPage = 30;
